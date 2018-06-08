@@ -51,7 +51,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
     fun openCorrectGuessScreen(){
-        val intent = Intent("com.example.gabriel.guessnumber.CorrectGuessActivity")
+        val intent = Intent(this, CorrectGuessActivity::class.java)
         startActivity(intent)
     }
 }
